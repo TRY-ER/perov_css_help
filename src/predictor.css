@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Monda:700");
+
+#main_body{
+    overflow-y: scroll;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+}
+
+  /* html, body, #root,  */
+body{
+    position: absolute;
+    overflow-y: scroll;
+    margin: 0;
+    overflow: auto;
+
+    background: #FA7070;
+}
+
+#eclipse{
+    position: absolute;
+    width: 755px;
+    height: 743px;
+    right: -188px;
+    top: -198px;
+
+    background: #AAA8F4;
+    mix-blend-mode: overlay;
+    filter: blur(200px);
+}
+
+#title {
+    position: relative;
+    width: 485px;
+    height: 254px;
+    left: 295px;
+    top: 128px;
+
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+
+    color: #FFFFFF;
+}
+
+#input_form{
+    padding-left: 290px;
+    padding-top: 200px;
+}
